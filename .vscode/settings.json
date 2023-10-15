@@ -1,0 +1,14 @@
+{
+  // ejecutar primero Prettier y luego EsLint al salvar
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": { "source.formatDocument": true, "source.fixAll.eslint": true },
+  // asociar archivos .css con la nomenclatura tailwind
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  // etiquetas html "linkadas": se edita el final de la etiqueta al mismo tiempo que el inicio
+  "editor.linkedEditing": true,
+  // descargar json schemas
+  "json.schemaDownload.enable": true
+}

@@ -1,0 +1,21 @@
+{
+  "cities": {
+    "names": {
+      "roswell": "Roswell",
+      "washington": "Washington, DC",
+      "new_york": "Nueva York"
+    },
+    "abilities": {
+      "roswell_1": "",
+      "roswell_2": "Cuando Roswell recibe su primer impacto de daño, avanza 1 espacio en el track de investigación.",
+      "washington_1": "Antes de tirar por primera vez cada ronda, pon un dado blanco a 6 en vez de tirarlo.",
+      "washington_2": "Inmediatamente después de tirar por primera vez cada ronda, puedes convertir un dado en 6.",
+      "new_york_1": "Sólo pudes tener 1 robot, pero el valor del lugar donde está se eleva en 1.",
+      "new_york_2": "El valor de las habitaciones se eleva en 1 por cada robot que haya en ella."
+    }
+  },
+
+  "errorMsgs": {
+    "no_city": "No existe la ciudad seleccionada."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "cities": {
+    "names": {
+      "roswell": "Roswell",
+      "washington": "Washington, DC",
+      "new_york": "New York"
+    },
+    "abilities": {
+      "roswell_1": "",
+      "roswell_2": "When Roswell takes its first point of damage, advance 1 space on the research track.",
+      "washington_1": "On the first roll of each round, set one of the white dice to 6 instead of rolling it.",
+      "washington_2": "Immediately after the first roll of each round, you may set one of the workers dice to 6.",
+      "new_york_1": "You can have only one robot, but the value of its room is raised by 1.",
+      "new_york_2": "A room's value is raised by 1 for each robot in it."
+    }
+  }
+}

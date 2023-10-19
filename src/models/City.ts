@@ -1,5 +1,5 @@
 import { useTranslate } from 'hooks/useTranslate';
-import { City, CityNames, Sides } from 'types/setup';
+import { City, CityNames, Sides } from 'models/types';
 
 // eslint-disable-next-line react-hooks/rules-of-hooks
 const cities = useTranslate((state) => state.getSection)(import.meta.env.VITE_LANG, 'cities');

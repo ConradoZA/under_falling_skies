@@ -1,5 +1,5 @@
 import { CitiesA, CitiesB } from 'models/City';
-import { CityNames, Energy, Sides } from 'types/setup';
+import { CityNames, Sides } from 'models/types';
 import { Sky1, Sky2, Sky3, Sky4 } from './Sky';
 
 export class ScienceTrack {
@@ -71,7 +71,7 @@ export class ScienceTrack {
    * @param amount Cantidad de energía a invertir para avanzar
    * @returns Cantidad máxima de espacios que se pueden avanzar
    */
-  howMuchCanAdvance(amount: Energy): number {
+  howMuchCanAdvance(amount: number): number {
     let steps = 0;
     let nextStep = 1;
     let cost = this.track[this.trackPosition + nextStep];
@@ -90,7 +90,7 @@ export class ScienceTrack {
    *
    * @param amount Cantidad de energía a invertir para avanzar
    */
-  advanceTrack(amount: Energy): void {
+  advanceTrack(amount: number): void {
     this.trackPosition += this.howMuchCanAdvance(amount);
   }
 

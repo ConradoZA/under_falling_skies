@@ -1,14 +1,14 @@
-import { MSActions, Sides } from 'types/setup';
+import { DoomTile, Sides } from 'models/types';
 import { Sky2, Sky3, Sky4 } from './Sky';
 
 /* TRACK DE DESGRACIAS */
-const track: (number | MSActions)[][] = [];
+const track: DoomTile[] = [];
 let trackPosition: number = 0;
 
 // Partes
-const part4: (number | MSActions)[][] = [];
-const part3: (number | MSActions)[][] = [];
-const part2: (number | MSActions)[][] = [];
+const part4: DoomTile[] = [];
+const part3: DoomTile[] = [];
+const part2: DoomTile[] = [];
 
 /**
  * Añade el doom track de la loseta seleccionada.
@@ -52,7 +52,7 @@ function checkAndUnite(): void {
  *
  * @returns La acción a ser ejecutada este turno.
  */
-function advanceMotherShip(): (number | MSActions)[] {
+function advanceMotherShip(): DoomTile {
   trackPosition++;
   return track[trackPosition];
 }
